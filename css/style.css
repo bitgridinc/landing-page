@@ -58,8 +58,7 @@ img.logo{
 /* Parallax/Jumbotron Section -------------------------------*/
 
 .bg {
-  background: url('http://i57.tinypic.com/2uts2g3.png') center bottom no-repeat;
-  background-attachment: fixed;
+  background: url('http://i57.tinypic.com/2uts2g3.png') center center no-repeat;
   height: 650px; /*same height as jumbotron */
   top:0;
   left:0;
@@ -70,17 +69,18 @@ img.logo{
 }
 @media (max-width: 979px) {
   .bg {
-    height: 550px;
+    height: 100%;
   }
 }
 @media (max-width: 450px) {
   .bg {
-    height: 480px;
+    height: 100%;
   }
 }
 @media (min-width: 1543px) {
   .bg {
     background-size: 100%;
+    height: 100%;
   }
 }
 
