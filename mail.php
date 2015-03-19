@@ -1,6 +1,6 @@
 <? 
 $email=$_POST['email']; 
-$to="cconnerney@gmail.com"; 
+$to="justin@bitgrid.co"; 
 $message="Newsletter email signup request from: $email"; 
 
 $success = "
