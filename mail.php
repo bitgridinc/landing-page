@@ -1,4 +1,4 @@
-<? 
+<?php
 $email=$_POST['email']; 
 $to="cconnerney@gmail.com"; 
 $message="Newsletter email signup request from: $email"; 
@@ -14,7 +14,7 @@ $success = "
 ";
 
 if(mail($to,"Newsletter Signup", $message,"From: $email\n")) { 
-echo "$success"; 
+echo $success; 
 } else { 
 echo "There was a problem sending the mail. Please check that you filled in the form correctly."; 
 } 
