@@ -3,7 +3,7 @@ $email=$_POST['email'];
 $to="justin@bitgrid.co";
 $message="Newsletter email signup request from: $email";
 
-file_put_contents('subscribers.txt', $email . "\r\n", FILE_APPEND);
+file_put_contents('../subscribers.txt', $email . "\r\n", FILE_APPEND);
 
 $success = "
 <div class=\"row-fluid\">
